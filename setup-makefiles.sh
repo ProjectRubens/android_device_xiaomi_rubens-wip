@@ -32,7 +32,7 @@ write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
-VIBRATOR_XML="vendor_overlay/31/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml"
+VIBRATOR_XML="vendor_overlay/33/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml"
 printf '\n%s\n' "PRODUCT_COPY_FILES += \\" >> "$PRODUCTMK"
 printf '    %s/proprietary/%s:$(TARGET_COPY_OUT_PRODUCT)/%s\n' \
                 "$OUTDIR" "product/$VIBRATOR_XML" "$VIBRATOR_XML" >> "$PRODUCTMK"
