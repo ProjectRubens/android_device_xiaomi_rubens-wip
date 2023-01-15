@@ -1,14 +1,11 @@
 //
-// Copyright (C) 2017-2020 The LineageOS Project
+// Copyright (C) 2017-2021 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 android_app {
     name: "XiaomiParts",
-    defaults: [
-        "SettingsLibDefaults",
-    ],
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
@@ -18,27 +15,17 @@ android_app {
     privileged: true,
 
     static_libs: [
-        "androidx.core_core",
-        "androidx.preference_preference",
         "org.lineageos.settings.resources",
-        "SettingsLib",
     ],
 
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
-
-    required: [
-        "disp_feature"
-    ]
 }
 
-cc_binary {
-	name: "disp_feature",
-	srcs: [
-		"disp_feature.cpp",
-	],
-    header_libs: [
-        "generated_kernel_headers",
-    ],
+prebuilt_etc {
+    name: "gpu_optimizer.rc",
+    src: "gpu_optimizer.rc",
+    sub_dir: "init",
+    vendor: true,
 }

@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2015 The CyanogenMod Project
+ *               2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,20 +15,18 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.refreshrate;
+package org.lineageos.settings.sensors;
 
-import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 
-public class RefreshActivity extends PreferenceActivity {
-
-    private static final String TAG_REFRESH = "refresh";
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        getFragmentManager().beginTransaction().replace(android.R.id.content,
-                new RefreshSettingsFragment(), TAG_REFRESH).commit();
+public final class SensorsUtils {
+    public static Sensor getSensor(SensorManager sm, String type) {
+        for (Sensor sensor : sm.getSensorList(Sensor.TYPE_ALL)) {
+            if (type.equals(sensor.getStringType())) {
+                return sensor;
+            }
+        }
+        return null;
     }
 }
