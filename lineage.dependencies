@@ -18,7 +18,7 @@
    "branch"      : "12.1"
  },
  {
-   "repository"  : "ArkZioPrime/kernel_xiaomi_mt6895",
+   "repository"  : "ArkZioPrime/android_kernel_mtk_5.10",
    "target_path" : "kernel/xiaomi/mt6895",
    "remote"      : "github",
    "branch"      : "12.1"
