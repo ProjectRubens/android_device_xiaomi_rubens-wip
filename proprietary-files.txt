@@ -121,28 +121,28 @@ vendor/etc/audio_param/tfa98xx_voice.bin
 vendor/lib/libmpbase.so
 vendor/lib/mt6895/rubensgc02m1_mipi_raw_IdxMgr.so
 vendor/lib/mt6895/rubensgc02m1_mipi_raw_tuning.so
-vendor/lib/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
-vendor/lib/mt6895/rubensimx582_mipi_raw_2_tuning.so
 vendor/lib/mt6895/rubensimx582_mipi_raw_IdxMgr.so
 vendor/lib/mt6895/rubensimx582_mipi_raw_tuning.so
 vendor/lib/mt6895/rubensimx596_mipi_raw_IdxMgr.so
 vendor/lib/mt6895/rubensimx596_mipi_raw_tuning.so
 vendor/lib/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
-vendor/lib/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/llb/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/lib/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
+vendor/lib/mt6895/rubensimx582_mipi_raw_2_tuning.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/libarcsoft_high_dynamic_range_v5.so
 vendor/lib64/libwa_rtdof.so
 vendor/lib64/libwa_rtrefocus.so
+vendor/lib64/mt6895/libcam.3a_isp.utils.so
 vendor/lib64/mt6895/rubensgc02m1_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensgc02m1_mipi_raw_tuning.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_2_tuning.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensimx582_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubensimx596_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensimx596_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/llb64/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_2_tuning.so
 
 # Camera configs
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
@@ -235,6 +235,16 @@ vendor/etc/miLut_6.txt
 vendor/etc/miLut_7.txt
 vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
+
+# MIUI Camera
+lib64/libcamera_algoup_jni.xiaomi.so
+lib64/libcamera_ispinterface_jni.xiaomi.so
+lib64/libcamera_mianode_jni.xiaomi.so
+lib64/libcameraservice.so
+lib64/libmtkisp_metadata_sys.so
+lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
+-product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|aebba09f89facc152ce4c072d42b14e6b289cb08
+system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 
 # Miscellaneous
 vendor/etc/cust_silky_brightness.xml
@@ -662,4 +672,3 @@ vendor_dlkm/lib/modules/minet.ko
 vendor_dlkm/lib/modules/miwill.ko
 vendor_dlkm/lib/modules/miwill_mode_redudancy.ko
 vendor_dlkm/lib/modules/msync2_frd.ko
-# update for rubens
