@@ -126,7 +126,7 @@ vendor/lib/mt6895/rubensimx582_mipi_raw_tuning.so
 vendor/lib/mt6895/rubensimx596_mipi_raw_IdxMgr.so
 vendor/lib/mt6895/rubensimx596_mipi_raw_tuning.so
 vendor/lib/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
-vendor/llb/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/lib/mt6895/rubenss5k4h7_mipi_raw_tuning.so
 vendor/lib/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
 vendor/lib/mt6895/rubensimx582_mipi_raw_2_tuning.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
@@ -140,7 +140,7 @@ vendor/lib64/mt6895/rubensimx582_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubensimx596_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensimx596_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
-vendor/llb64/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
 vendor/lib64/mt6895/rubensimx582_mipi_raw_2_tuning.so
 
@@ -236,7 +236,7 @@ vendor/etc/miLut_7.txt
 vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
 
-# MIUI Camera
+# MIUI Camera (aebba09f89facc152ce4c072d42b14e6b289cb08) This is the sha1
 lib64/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_ispinterface_jni.xiaomi.so
 lib64/libcamera_mianode_jni.xiaomi.so
