@@ -1,5 +1,9 @@
 # Unpinned blobs from rubens-user 13 TP1A.220624.014 V14.0.4.0.TLNCNXM release-keys
 
+# AGPS
+-app/LocationEM2/LocationEM2.apk
+-priv-app/LPPeService/LPPeService.apk
+
 # Audio param
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -136,6 +140,7 @@ vendor/lib64/libwa_rtrefocus.so
 vendor/lib64/mt6895/libcam.3a_isp.utils.so
 vendor/lib64/mt6895/rubensgc02m1_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensgc02m1_mipi_raw_tuning.so
+vendor/lib64/mt6895/rubensimx582_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensimx582_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubensimx596_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubensimx596_mipi_raw_tuning.so
@@ -211,6 +216,10 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6895
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6895/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7alpha_mipi_raw/mt6895/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7alpha_mipi_raw/mt6895/ISP_param.db
+
+# Dolby
+lib/vendor.dolby.hardware.dms@2.0.so
+lib64/vendor.dolby.hardware.dms@2.0.so
 
 # Display config
 vendor/etc/miLutInfo.txt
@@ -389,6 +398,9 @@ vendor/etc/security/cacerts/fb5fa911.0
 vendor/etc/security/cacerts/fd08c599.0
 vendor/etc/security/cacerts/fde84897.0
 vendor/etc/security/cacerts_supl/111e6273.0
+vendor/etc/security/cacerts_supl/6d4bcacf.0
+vendor/etc/security/cacerts_supl/4bcd7fc4.0
+vendor/etc/security/cacerts_supl/3ad48a91.0
 vendor/etc/security/cacerts_supl/3ad48a91.0
 vendor/etc/security/cacerts_supl/7651b327.0
 vendor/etc/security/cacerts_supl/c542733d.0
