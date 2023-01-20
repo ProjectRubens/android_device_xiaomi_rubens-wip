@@ -1,4 +1,4 @@
-# Unpinned blobs from rubens-user 13 TP1A.220624.014 V14.0.4.0.TLNCNXM release-keys
+# Unpinned blobs from rubens-user 13 TP1A.220624.014 V14.0.4.0.TLNCNXM release-keys  (Redmi-K50)
 
 # Audio param
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
