@@ -1,9 +1,5 @@
 # Unpinned blobs from rubens-user 13 TP1A.220624.014 V14.0.4.0.TLNCNXM release-keys
 
-# AGPS
--app/LocationEM2/LocationEM2.apk
--priv-app/LPPeService/LPPeService.apk
-
 # Audio param
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -398,9 +394,6 @@ vendor/etc/security/cacerts/fb5fa911.0
 vendor/etc/security/cacerts/fd08c599.0
 vendor/etc/security/cacerts/fde84897.0
 vendor/etc/security/cacerts_supl/111e6273.0
-vendor/etc/security/cacerts_supl/6d4bcacf.0
-vendor/etc/security/cacerts_supl/4bcd7fc4.0
-vendor/etc/security/cacerts_supl/3ad48a91.0
 vendor/etc/security/cacerts_supl/3ad48a91.0
 vendor/etc/security/cacerts_supl/7651b327.0
 vendor/etc/security/cacerts_supl/c542733d.0
