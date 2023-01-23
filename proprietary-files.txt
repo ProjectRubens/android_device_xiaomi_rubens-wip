@@ -144,6 +144,7 @@ vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_tuning.so
 vendor/lib64/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
 vendor/lib64/mt6895/rubensimx582_mipi_raw_2_tuning.so
+vendor/lib64/mt6895/libcam.halisp.v4l2.so
 
 # Camera configs
 vendor/etc/camera/com.xiaomi.dcal.wu.golden
