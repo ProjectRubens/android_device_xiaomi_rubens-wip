@@ -22,8 +22,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.renderengine.backend=skiaglthreaded
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosp
+PRODUCT_PACKAGES += \
+    PixelExperienceSettingsOverlay \
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \

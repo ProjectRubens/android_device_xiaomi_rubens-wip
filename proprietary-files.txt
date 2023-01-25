@@ -253,7 +253,7 @@ lib64/libmtkisp_metadata_sys.so
 lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 -product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|aebba09f89facc152ce4c072d42b14e6b289cb08
 system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
-system/lib64/libcamera_algoup_jni.xiaomi.so
+
 
 # Miscellaneous
 vendor/etc/cust_silky_brightness.xml
@@ -266,6 +266,11 @@ vendor/lib/lib_aurisys_gv_ecns.so
 vendor/lib64/lib_aurisys_gv_ecns.so
 vendor/lib64/libwa_depth.so
 vendor/lib64/libwa_refocus.so
+
+# System Light
+lib/android.hardware.light@2.0.so
+lib64/android.hardware.light@2.0.so
+
 
 # Security
 vendor/etc/security/cacerts/01419da9.0
