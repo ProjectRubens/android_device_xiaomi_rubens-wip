@@ -23,7 +23,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    PixelExperienceSettingsOverlay \
+    DerpSettingsOverlay \
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \

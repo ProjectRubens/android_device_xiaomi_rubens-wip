@@ -1,6 +1,0 @@
-runtime_resource_overlay {
-    name: "PixelExperienceSettingsOverlay",
-    theme: "PixelExperienceSettingsOverlay",
-    sdk_version: "current",
-    vendor: true
-}

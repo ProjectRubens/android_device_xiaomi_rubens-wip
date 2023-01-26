@@ -22,15 +22,5 @@ It was released in March 2022.
 ## Device Picture
 ![Redmi K50](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1653381863.47942179.png)
 
-## Patches
-
-### Telephony
-> https://gerrit.pixelexperience.org/c/frameworks_opt_telephony/+/15476
-
-### Ims
-> https://gerrit.pixelexperience.org/c/frameworks_opt_net_ims/+/15318
-
-> https://gerrit.pixelexperience.org/c/frameworks_opt_net_ims/+/15317
-
 ## Credits
 This tree based on Redmi Note 11T Pro+(xaga) of @wbs306

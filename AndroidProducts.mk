@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rubens.mk
+    $(LOCAL_DIR)/derp_rubens.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_rubens-user \
-    aosp_rubens-userdebug \
-    aosp_rubens-eng
+    derp_rubens-user \
+    derp_rubens-userdebug \
+    derp_rubens-eng
