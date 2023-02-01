@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
 
+
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.renderengine.backend=skiaglthreaded
@@ -27,7 +28,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \
-    RubensFrameworkResOverlay \
     SystemUIOverlay \
     SettingsOverlay
 

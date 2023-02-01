@@ -244,15 +244,20 @@ vendor/etc/miLut_7.txt
 vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
 
-# MIUI Camera (aebba09f89facc152ce4c072d42b14e6b289cb08) This is the sha1
+# MIUI Camera
 lib64/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_ispinterface_jni.xiaomi.so
 lib64/libcamera_mianode_jni.xiaomi.so
 lib64/libcameraservice.so
+lib64/libcamera_client.so
 lib64/libmtkisp_metadata_sys.so
 lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
--product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|aebba09f89facc152ce4c072d42b14e6b289cb08
+-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2,Aperture
+system_ext/lib64/libcameraimpl.so
+system_ext/lib64/libopencl-camera.so
 system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
+
+
 
 
 # Miscellaneous

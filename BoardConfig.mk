@@ -9,6 +9,10 @@
 
 DEVICE_PATH := device/xiaomi/rubens
 
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := rubens
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := rubens
 
