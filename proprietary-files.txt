@@ -219,6 +219,8 @@ lib/vendor.dolby.hardware.dms@2.0.so
 lib64/vendor.dolby.hardware.dms@2.0.so
 vendor/lib/c2.dolby.store.so
 vendor/lib64/c2.dolby.store.so
+vendor/lib/c2.dolby.avc.dec.so
+vendor/lib64/c2.dolby.avc.dec.so
 
 # Display config
 vendor/etc/miLutInfo.txt
