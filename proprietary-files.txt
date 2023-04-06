@@ -214,14 +214,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6895
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7alpha_mipi_raw/mt6895/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k4h7alpha_mipi_raw/mt6895/ISP_param.db
 
-# Dolby
-lib/vendor.dolby.hardware.dms@2.0.so
-lib64/vendor.dolby.hardware.dms@2.0.so
-vendor/lib/c2.dolby.store.so
-vendor/lib64/c2.dolby.store.so
-vendor/lib/c2.dolby.avc.dec.so
-vendor/lib64/c2.dolby.avc.dec.so
-
 # Display config
 vendor/etc/miLutInfo.txt
 vendor/etc/miLut_0.txt
