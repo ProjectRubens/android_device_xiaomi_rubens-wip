@@ -31,6 +31,13 @@ PRODUCT_PACKAGES += \
     SystemUIOverlay \
     SettingsOverlay
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.0-service
+
+
+
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/modules/modules.load.recovery:recovery/root/lib/modules/modules.load.recovery

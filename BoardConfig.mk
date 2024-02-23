@@ -35,5 +35,10 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(wildcard $(DEVICE_PATH)/prebuilts/modules/*.ko)
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/prebuilts/modules/modules.load))
 
+#Vendor_dlkm
+BOARD_USES_VENDOR_DLKMIMAGE := true
+BOARD_VENDOR_KERNEL_MODULES := $(wildcard vendor/xiaomi/rubens/propietary/vendor_dlkm/lib/modules/*.ko)
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat vendor/xiaomi/rubens/proprietary/vendor_dlkm/lib/modules/modules.load))
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
