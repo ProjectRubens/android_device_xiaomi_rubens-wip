@@ -34,6 +34,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="missi_phone_cn-user 13 TP1A.220624.014 V816.0.24.1.22.DEV release-keys"
+    PRIVATE_BUILD_DESC="missi_phone_cn-user 14 UP1A.231005.007 V816.0.2.0.ULNCNXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/rubens/rubens:12/SP1A.210812.016/V816.0.24.1.22.DEV:user/release-keys
+BUILD_FINGERPRINT := Redmi/rubens/rubens:12/SP1A.210812.016/V816.0.2.0.ULNCNXM:user/release-keys

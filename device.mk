@@ -23,8 +23,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.renderengine.backend=skiaglthreaded
 
 # Overlays
-PRODUCT_PACKAGES += \
-    DerpSettingsOverlay \
+
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \
@@ -34,8 +33,13 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.0-service
-
+    android.hardware.keymaster@4.0-service \
+    libkeymaster4.vendor:64 \
+    libkeymaster4support.vendor:64 \
+    libkeymaster_portable.vendor:64 \
+    libkeymaster_messages.vendor:64 \
+    libsoft_attestation_cert.vendor:64 \
+    libpuresoftkeymasterdevice.vendor:64
 
 
 # Recovery
@@ -50,3 +54,5 @@ PRODUCT_PACKAGES += \
 # Xiaomi Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+BUILD_BROKEN_SRC_DIR_IS_WRITABLE := true

@@ -9,6 +9,7 @@
 
 DEVICE_PATH := device/xiaomi/rubens
 
+BOARD_HAS_MTK_HARDWARE := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := rubens
@@ -42,3 +43,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat vendor/xiaomi/rubens/pro
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# Temproraily disable SELinux for testing
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
