@@ -1,4 +1,4 @@
-Copyright (C) 2022 The Derpfest Project
+Copyright (C) 2024 The LineageOS Project
 # Device tree for Redmi K50 (rubens) - Derpfest-13
 
 The Redmi K50 (codenamed _"rubens"_) is a high-end, mid-range smartphone from Xiaomi.
