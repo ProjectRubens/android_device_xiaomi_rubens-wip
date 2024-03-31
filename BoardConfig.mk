@@ -45,4 +45,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat vendor/xiaomi/rubens/pro
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Temproraily disable SELinux for testing
+
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
