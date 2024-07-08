@@ -28,7 +28,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
 BOARD_BOOTCONFIG += androidboot.init_fatal_reboot_target=bootloader
 
-TARGET_KERNEL_CONFIG := mikrn_rubens_stability_defconfig
+TARGET_KERNEL_CONFIG := mikrn_rubens_defconfig
 
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
