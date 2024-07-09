@@ -144,7 +144,7 @@ persist.vendor.wifienhancelog=1
 persist.vendor.wifisalog.enable=true
 ro.audio.monitorRotation=true
 ro.bluetooth.a2dp_offload.supported=true
-ro.board.api_level=31
+
 ro.board.first_api_level=31
 ro.config.media_vol_default=10
 ro.config.vc_call_vol_steps=11
