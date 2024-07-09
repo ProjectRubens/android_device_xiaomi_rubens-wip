@@ -51,8 +51,6 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     meta_init.rc
 
-# Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
+
 
 BUILD_BROKEN_SRC_DIR_IS_WRITABLE := true
