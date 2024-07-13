@@ -28,7 +28,11 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
 BOARD_BOOTCONFIG += androidboot.init_fatal_reboot_target=bootloader
 
-TARGET_KERNEL_CONFIG := mikrn_rubens_defconfig
+TARGET_KERNEL_CONFIG := \
+	gki_defconfig \
+	vendor/xiaomi_mt6895.config \
+	vendor/rubens.config
+
 
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
